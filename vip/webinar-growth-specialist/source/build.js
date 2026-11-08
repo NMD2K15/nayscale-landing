@@ -179,6 +179,21 @@ function rowsList(s, rows, o = {}) { // numbered rows with arrow: [left, right]
   });
 }
 
+
+function shapeTable(s, rows, o) { // table drawn as text boxes and lines, so Canva imports it cleanly
+  const n = rows.length, tw = o.colW.reduce((a, b) => a + b, 0);
+  rows.forEach((r, i) => {
+    const y = o.y + i * o.rowH;
+    let x = o.x;
+    r.forEach((c, j) => {
+      const opt = Object.assign({}, c.options);
+      T(s, c.text, Object.assign({ x: x + 0.12, y, w: o.colW[j] - 0.24, h: o.rowH, valign: "middle", charSpacing: opt.charSpacing ?? 0.3, lineSpacingMultiple: 1.05 }, opt));
+      x += o.colW[j];
+    });
+    if (i < n - 1) s.addShape(pres.shapes.LINE, { x: o.x, y: y + o.rowH, w: tw, h: 0, line: { color: i === 0 ? GOLD_HEX : "3A3D42", width: i === 0 ? 1.25 : 0.75 } });
+  });
+}
+
 // ---------- Title
 sect("Opening");
 {
@@ -472,14 +487,14 @@ divider("PART THREE", ["THE", "HOUR", "THAT", "SELLS"], N.div3);
   const rows = [
     [cell("WHAT'S IN EDIT PRO", hdr), cell("WHAT IT DOES FOR THEM", hdr), cell("VALUE", Object.assign({ align: "right" }, hdr))],
     r("8 week video course", "Learn the skills in order", "€600"),
-    r("Weekly live calls with Jake", "Get unstuck fast", "€800"),
+    r("Weekly live calls", "Get unstuck fast", "€800"),
     r("Templates and presets", "Look pro from day one", "€200"),
     r("Client message scripts", "Know exactly what to say", "€150"),
     r("Private community", "Never stuck on your own", "€250"),
     [cell("Total value", { color: WHITE, bold: true }), cell(""), cell("€2,000", { align: "right", color: WHITE, bold: true })],
     [cell("Tonight", { color: GOLD, bold: true, fontSize: 18 }), cell("Plus a portfolio review", { color: GOLD }), cell("€1,000", { align: "right", color: GOLD, bold: true, fontSize: 20, fontFace: NUM })],
   ];
-  s.addTable(rows, { x: X0, y: 1.75, w: 7.6, colW: [2.95, 3.35, 1.3], rowH: 0.52, valign: "middle", border: { type: "solid", pt: 0.75, color: "3A3D42" }, fill: { color: WHITE, transparency: 100 }, margin: [0, 0.12, 0, 0.12] });
+  shapeTable(s, rows, { x: X0, y: 1.75, w: 7.6, colW: [2.95, 3.35, 1.3], rowH: 0.52, valign: "middle", border: { type: "solid", pt: 0.75, color: "3A3D42" }, fill: { color: WHITE, transparency: 100 }, margin: [0, 0.12, 0, 0.12] });
   const x = 8.5, w = 12.81 - x;
   box(s, x, 1.75, w, 4.5);
   H(s, "THE RULES", { x: x + 0.25, y: 2.0, w: w - 0.5, h: 0.4, color: GOLD, fontSize: 20 });
@@ -548,7 +563,7 @@ divider("PART FOUR", ["GETTING", "GREAT", "RESULTS"], N.div4);
     [c("Money per person live", { color: WHITE, bold: true }), c("Sales ÷ people live"), c("Your number to beat", { color: GOLD }), c("Your creator's data", { fontSize: 12 })],
     [c("Cost per sign up", { color: WHITE, bold: true }), c("Ad spend ÷ sign ups"), c("Only once you run ads", { color: WHITE }), c("GrowthSpree; WordStream", { fontSize: 12 })],
   ];
-  s.addTable(rows, { x: X0, y: 1.75, w: CW, colW: [3.1, 3.3, 3.2, 2.69], rowH: 0.62, valign: "middle", border: { type: "solid", pt: 0.75, color: "3A3D42" }, fill: { color: WHITE, transparency: 100 }, margin: [0, 0.12, 0, 0.12] });
+  shapeTable(s, rows, { x: X0, y: 1.75, w: CW, colW: [3.1, 3.3, 3.2, 2.69], rowH: 0.62, valign: "middle", border: { type: "solid", pt: 0.75, color: "3A3D42" }, fill: { color: WHITE, transparency: 100 }, margin: [0, 0.12, 0, 0.12] });
   T(s, "Ranges come from published webinar benchmarks and tell you where to look. Your creator's own numbers, webinar after webinar, are what you manage.", { x: X0, y: 5.75, w: CW, h: 0.5, fontSize: 12, color: MUTED });
 }
 
@@ -603,13 +618,16 @@ divider("PART FOUR", ["GETTING", "GREAT", "RESULTS"], N.div4);
     [c("Sales", { color: WHITE }), c("6", { align: "right" }), c("12", { align: "right", color: WHITE })],
     [c("Money in", { color: WHITE, bold: true }), c("€6,000", { align: "right" }), c("€12,000", { align: "right", color: GOLD, bold: true })],
   ];
-  s.addTable(rows, { x: X0, y: 1.75, w: 6.4, colW: [2.6, 1.9, 1.9], rowH: 0.56, valign: "middle", border: { type: "solid", pt: 0.75, color: "3A3D42" }, fill: { color: WHITE, transparency: 100 }, margin: [0, 0.12, 0, 0.12] });
-  s.addChart(pres.charts.BAR, [{ name: "Sales", labels: ["Before", "After"], values: [6000, 12000] }], {
-    x: 7.3, y: 1.75, w: 5.5, h: 3.95, barDir: "col", chartColors: ["8A8B8D", GOLD_HEX],
-    showTitle: true, title: "Sales from one webinar (€)", titleColor: "F6F6F6", titleFontSize: 14, titleFontFace: "+mn-lt",
-    showValue: true, dataLabelPosition: "outEnd", dataLabelColor: "F6F6F6", dataLabelFontSize: 14, dataLabelFontFace: "+mn-lt", dataLabelFormatCode: "€#,##0",
-    catAxisLabelColor: "A3A5A8", catAxisLabelFontSize: 13, catAxisLabelFontFace: "+mn-lt", valAxisHidden: true,
-    valGridLine: { style: "none" }, catGridLine: { style: "none" }, showLegend: false, barGapWidthPct: 80, valAxisMaxVal: 14000, valAxisMinVal: 0, catAxisLineColor: "3A3D42",
+  shapeTable(s, rows, { x: X0, y: 1.75, w: 6.4, colW: [2.6, 1.9, 1.9], rowH: 0.56, valign: "middle", border: { type: "solid", pt: 0.75, color: "3A3D42" }, fill: { color: WHITE, transparency: 100 }, margin: [0, 0.12, 0, 0.12] });
+  // bar chart drawn as shapes
+  const cx = 7.6, cw = 5.0, base = 5.45, maxH = 2.9;
+  T(s, "Sales from one webinar", { x: cx, y: 1.75, w: cw, h: 0.4, fontSize: 14, color: WHITE, align: "center" });
+  s.addShape(pres.shapes.LINE, { x: cx, y: base, w: cw, h: 0, line: { color: "3A3D42", width: 1 } });
+  [["Before", 6000, "8A8B8D"], ["After", 12000, GOLD_HEX]].forEach(([lbl, v, col], k) => {
+    const bh = maxH * v / 12000, bw = 1.3, bx = cx + 0.8 + k * 2.1;
+    s.addShape(pres.shapes.RECTANGLE, { x: bx, y: base - bh, w: bw, h: bh, fill: { color: col }, line: { color: col, width: 0 } });
+    T(s, "€" + v.toLocaleString("en-GB"), { x: bx - 0.3, y: base - bh - 0.45, w: bw + 0.6, h: 0.4, fontFace: NUM, fontSize: 20, color: WHITE, align: "center" });
+    T(s, lbl, { x: bx - 0.3, y: base + 0.08, w: bw + 0.6, h: 0.35, fontSize: 13, align: "center" });
   });
   footLine(s, "Same audience, same offer. ", "Texts added, moved to 7pm. Double the money.", 5.95);
 }
