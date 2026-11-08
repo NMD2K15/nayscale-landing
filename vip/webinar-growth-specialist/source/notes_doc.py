@@ -24,7 +24,7 @@ SOURCES = [
      "Goldcast B2B Webinar Benchmark Report", "https://www.goldcast.io/reports/b2b-webinar-benchmark-report"),
     ("Live attendance 49%; about 4 in 10 attendees watch the replay",
      "Univid Webinar Insights 2026", "https://www.univid.io/webinar-statistics"),
-    ("Webinar landing pages average about 22.84% (vs 7.12% for all landing pages)",
+    ("Webinar sign up pages average about 22.84% (vs 7.12% for all landing pages)",
      "GetResponse study, as quoted by LanderLab and LearnyBox (primary study not opened)", "https://landerlab.io/blog/landing-page-conversion-rate"),
     ("Registration 35 to 59% depending on traffic warmth, 40% plus target on warm traffic; buyer conversion 5 to 20% for teaching led webinars with clear return",
      "ClickMeeting, Webinars That Convert", "https://blog.clickmeeting.com/webinars-that-convert"),
@@ -51,11 +51,12 @@ SOURCES = [
 ]
 
 ILLUSTRATIVE = [
-    "The extension builder and every number attached to it: €30,000 average job, 20% gross profit (€6,000 a job), 20 missed calls a month, 1 in 10 enquiries becoming a job, €144,000 a year lost profit.",
-    "Worked example funnel: €2,500 ad spend, €10 per registrant, 250 registrants, 20% then 40% show rate, 10% buy rate, 40% visit to job rate, €60,000 to €120,000 revenue, €12,000 to €24,000 gross profit.",
-    "Offer stack values (€400, €600, €250, €300, total €1,550) and the €295 design visit.",
-    "Fees: €6,000 project, €2,000 a month retainer, €3,000 plus 10% of gross profit (€2,400 a month at 4 jobs), and the 5 visit guarantee.",
-    "Names in example messages (Declan, Ciara, Sarah) and the 300 plus extensions credential.",
+    "Jake, the creator, and everything about him: 40,000 followers, video editing, the Edit Pro programme at €1,000, 2 sales a month from his bio link (€2,000 a month), the €120,000 a year gap.",
+    "Worked example: 500 sign ups, 20% then 40% show rate (100 then 200 live), 6% buy rate, 6 then 12 sales, €6,000 then €12,000, €60 per person live.",
+    "Offer stack values (€600, €800, €200, €150, €250, total €2,000) and the portfolio review bonus.",
+    "Fees: €3,000 project, €1,500 a month retainer, €1,000 plus 20% of sales (€2,400 a month at €12,000), the €5,000 guarantee, and 3 or 5 creators at €2,400 each.",
+    "Rules of thumb that are mine, not research: 10,000 followers or 1,000 emails to fill a first webinar, 10,000 to 200,000 follower creators to target, 20 DMs a day.",
+    "Names in example messages and on the night (Jake, Ciara, Tom).",
 ]
 
 css = """
@@ -80,7 +81,7 @@ td a { color: #1c1e22; word-break: break-all; }
 """
 out = [f"<!doctype html><html><head><meta charset='utf-8'><title>Speaker Notes</title><style>{css}</style></head><body>"]
 out.append("<h1>THE WEBINAR <span>GROWTH</span> SPECIALIST</h1>")
-out.append("<p class='sub'>Datasets VIP · Speaker notes for all 40 slides, with sources on the last page</p>")
+out.append("<p class='sub'>Datasets VIP · Speaker notes for all 44 slides, with sources on the last page</p>")
 for n, title, notes in slides:
     paras = "".join(f"<p>{html.escape(p.strip())}</p>" for p in notes.split("\n\n") if p.strip())
     out.append(f"<div class='slide'><h2>Slide {n} · {html.escape(title)}</h2>{paras}</div>")
@@ -89,7 +90,7 @@ for fig, name, url in SOURCES:
     out.append(f"<tr><td>{html.escape(fig)}</td><td>{html.escape(name)}</td><td><a href='{url}'>{html.escape(url)}</a></td></tr>")
 out.append("</table><div class='ill'><b>Illustrative, made up to show the maths:</b><ul>")
 out += [f"<li>{html.escape(x)}</li>" for x in ILLUSTRATIVE]
-out.append("</ul></div><p class='note'>These figures came from web research on 8 November 2026. Several are vendor benchmarks or secondary summaries, and definitions differ (live only versus live plus replay, B2B versus consumer). No published rate card for webinar strategists specifically was found.</p></div>")
+out.append("</ul></div><p class='note'>These figures came from web research on 8 November 2026. Several are vendor benchmarks or secondary summaries, and definitions differ (live only versus live plus replay, B2B versus consumer). No published rate card for webinar specialists, and no standard revenue share percentage for running a creator's webinar, was found.</p></div>")
 out.append("</body></html>")
 open("speaker_notes.html", "w", encoding="utf-8").write("".join(out))
 print(len(slides), "slides")

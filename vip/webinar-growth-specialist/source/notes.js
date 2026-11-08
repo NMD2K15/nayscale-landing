@@ -1,494 +1,544 @@
-// Speaker notes, keyed by slide id. Nathan's voice, British spelling, no dashes.
+// Speaker notes v2. Plain words, Nathan's voice, British spelling, no dashes.
 module.exports = {
-title: `Right, tonight is a proper skill session. By the end of this you'll know exactly what a webinar growth specialist does, how a webinar funnel works stage by stage, how to run the webinar itself so it sells, how to read the numbers, and how to land and price your first client.
+title: `Right, tonight's a big one. I'm going to teach you a skill you can start from zero and get paid properly for.
 
-I'm going to use one example business all the way through so the numbers stay consistent and you can follow the maths. It's a local building firm that does house extensions. Average job is around €30,000 and they keep about 20% of that as gross profit, so roughly €6,000 per job. Every number I give you for that builder is illustrative, meaning I've made it up to show you how the maths works. It's realistic, but it's an example.
+By the end of this you'll know what a webinar is, what a webinar growth specialist does, how to run a webinar that actually sells, how to find creators who'll pay you, how to get them great results, and how to grow it into a proper business.
 
-Any number I give you from research comes as a range, and the source is named in these notes and in the sources page at the end. Webinar data varies a lot depending on who's measuring and how, so treat the ranges as a starting point and your own client's numbers as the truth.
+You don't need any experience for this. If you've never been on a webinar in your life, that's fine. We start at the very beginning.
 
-Grab a pen. There's a lot in this one and every slide is something you can use.`,
+One example runs through the whole night so the maths is easy to follow. A creator called Jake. He's got 40,000 followers on Instagram and he teaches people how to edit videos and get paid for it. Jake isn't real. Every number about him is made up to show you how the maths works. When I give you a number from research, I'll give you a range and the source is in the notes and on the last page.
 
-role: `A webinar growth specialist builds and runs the whole system that takes a stranger, gets them to sign up for a live webinar, gets them to actually turn up, sells to them on the session and then follows up with the ones who didn't buy on the night.
+Grab a pen.`,
 
-The key word is whole. A lot of businesses already have pieces of this. They've got a Zoom account, maybe some slides, maybe somebody who runs a few ads. What they don't have is one person who owns the full chain and owns the numbers. That's you.
+div1: `Part one. The basics. If you already know some of this, stick with me, because the way I explain it here is how you'll explain it to creators on sales calls.`,
 
-Think of the builder. Right now the owner is up a ladder all day, misses calls, and quotes people who were never going to buy. You come in and build a monthly evening webinar called something like Planning Your Extension. Homeowners sign up online, get reminders, watch the owner teach for 40 minutes, and book a paid design visit at the end. The owner talks once a month to a room full of people who already trust him, and his diary fills with visits from people who are ready.
+webinar: `So what's a webinar. It's a free online class that happens live, at a set time. Someone teaches something useful for about an hour, and at the end they offer a way to go further with them, usually a paid course or programme.
 
-You get paid because you can point at the number of visits and jobs that came from the system. That's why the job title has growth in it. Your job is the result.`,
+Think of it like a free workshop at a local hall, except it's on Zoom, so a few hundred people can join from their sofa.
 
-why: `Three reasons webinars sell better than nearly any other way of selling online.
+Three things make it a webinar. It's free to join, so lots of people sign up. It's live at a set time, so people book it in and turn up together. And it ends with an offer, which is where the money comes from.
 
-Trust at scale. When someone watches you teach for 40 minutes they get to know how you think, how you talk, whether you know your stuff. That's the trust a salesperson builds over a long call, except you're building it with a hundred people at the same time. For the builder, homeowners are terrified of cowboys. Seeing the owner explain costs honestly for 40 minutes does more than any advert.
+People sign up with their name, email and phone number, they get reminders, they join, they learn something good, and some of them buy.
 
-One to many. A sales call is one to one. If the owner does 20 home visits to win 2 jobs, that's 20 evenings gone. On a webinar he pitches once to everyone in the room and only the serious ones book a visit.
+That's it. Everything else tonight is just how to do each of those bits really well.`,
 
-A buyer who chose to give you an hour. Nobody stumbles into a webinar. They read the page, typed their details in, put it in the calendar and turned up. That's a much warmer person than someone who scrolled past an advert.
+whycreators: `Why would a creator want this. A lot of creators have the same problem. They've got thousands of followers who like their posts, but hardly any of them buy. Their course sits behind a link in their bio and gets a couple of sales a month.
 
-And people do stay. ON24's benchmark data puts average engagement on a webinar at roughly 49 to 55 minutes over the last few years. That's from a platform with a huge sample, mainly business webinars, but it tells you people will give you real time if the content is worth it.`,
+A post gets a few seconds of attention. A webinar gets an hour. When someone watches Jake teach for an hour, they get to know him, they see he knows his stuff, and they start to trust him. That's when people buy.
 
-money: `There are three ways specialists get paid and you should know all three before you ever talk to a client.
+It's also one to many. Jake teaches once and two hundred people are in the room. He couldn't have two hundred sales calls in a month if he tried.
 
-Project fee. You build and run one webinar from start to finish for a fixed price. Simple to sell, simple to understand, and it's how I'd get your first client. Illustrative number for the builder: €6,000 for the full build, pages, reminders, script, slides, the live run and the follow up.
+And the people there chose to be there. They signed up, put it in their calendar and gave up an evening. Those are the warmest people a creator will ever sell to.
 
-Monthly retainer. Once the first webinar works, the business wants it running every month. You charge a monthly fee to run it, improve it and report on it. Illustrative: €2,000 a month with a three month minimum.
+People do stay, too. ON24, one of the big webinar platforms, reports average engagement of roughly 49 to 55 minutes across their webinars in recent years. Their data is mainly business webinars, but it shows people will give you real time if the content's good.`,
 
-Fee plus a share of sales. A smaller fee up front plus a percentage of what the webinar brings in. Illustrative: €3,000 set up plus 10% of the gross profit on jobs that came from the webinar. If it books 4 jobs in a month at €6,000 gross profit each, that's €24,000 profit, and your share is €2,400. Only do this when you can track every sale properly and you trust the client to report honestly.
+specialist: `So what's a webinar growth specialist. You run the whole webinar for a creator, from getting people to sign up to the sales coming in, and you get paid from the results.
 
-On what the market pays: I couldn't find a reliable published rate card for webinar strategists specifically, so I won't pretend there is one. The closest I found: a 2026 goLance rate guide puts freelance funnel builders at roughly $20 to $225 an hour depending on experience, with mid level around $60. Consulting guides give retainer examples of around $4,000 a month (ClickUp) and $7,500 a month for a conversion consultant (Clicksgeek). Use those as rough reference points. Later in the deck I'll show you how to price against the client's problem, which is how you get well above hourly rates.`,
+The creator does the bit only they can do. They teach for an hour on the night, and they make the offer at the end.
 
-div1: `Part one. The machine itself. Before you can sell this or run it, you need to see the whole funnel in your head, stage by stage, and know what can go wrong at each one.`,
+You do everything else. You write the sign up page, set up the reminders, help write the script and the slides, sort the tech on the night, send the follow up emails, and track the numbers.
 
-funnel: `Every webinar funnel has the same seven stages. Learn this picture and you'll understand every webinar you ever look at.
+Creators love this because they hate the tech and the admin. They want to create content and teach. You take all that off them and hand them back sales.
 
-Traffic. People who don't know about the webinar yet. Ads, emails, posts, partners.
+And you're more than a Zoom tech person, because you're responsible for the result. The word growth is in the title for a reason. If the webinar isn't selling, it's your job to find out why and fix it.`,
 
-Registration page. One page whose only job is to get a name, email and ideally a phone number.
+whoclients: `The creators you want to work with have a few things in common.
 
-Confirmation and reminders. The messages between sign up and start time. This is where a huge number of webinars quietly fail.
+They teach a skill people want to learn. Video editing, photography, fitness, music production, design, cooking, languages, copywriting. Anything where people watch their content and think, I want to be able to do that.
 
-Live session. The hour itself.
+They've got an audience. As a rough rule of mine, 10,000 followers or an email list of 1,000 people is enough to fill a first webinar. That's my starting point, not a number from research.
 
-Offer. The thing you sell at the end, with a clear price and a clear way to buy.
+They've got a paid offer, ideally €300 or more, or they could create one. If they sell something for €20, the maths is much harder.
 
-Follow up. The emails and texts over the next week to people who didn't buy on the night.
+They're busy. They'd rather be filming than building pages and setting up emails.
 
-Replay. The recording, sent to everyone, available for a limited time.
+And people already ask them, how do I learn this properly. If you see that in their comments, that's a creator ready for a webinar.
 
-Between the stages are the numbers that matter. Page visitors to registrants is your registration rate. Registrants to live attendees is your show rate. Attendees to buyers is your buy rate. When a webinar isn't making money, one of those three numbers is broken, or the traffic is costing too much. Your whole job is finding which one and fixing it.`,
+Jake ticks every box. 40,000 followers, teaches editing, sells an 8 week programme for €1,000, and his comments are full of people asking how to get started.`,
 
-traffic: `Registrants come from four places.
+money: `There are three ways you get paid.
 
-Email list. If the business already has a list of past enquiries or customers, start here. It's free and it's warm. For the builder, that's everyone who ever asked for a quote and didn't go ahead. That list alone can fill the first webinar.
+Project fee. You build and run one webinar for a fixed price. Simple and easy to say yes to. For Jake, illustrative number, €3,000.
 
-Organic content. Posts, short videos, a local Facebook group. Free, but slow, and you can't turn it up when you need more people.
+Monthly retainer. Once it works, you run a webinar every month, improve it and report on it. For Jake, €1,500 a month.
 
-Paid ads. Fast and you can scale it, but it costs money and you need to know your numbers. One 2026 B2B guide from GrowthSpree estimates Meta cost per webinar registration at roughly $8 to $12, and WordStream's 2025 data puts the average Facebook cost per lead across industries at $27.66. Those are very different numbers from different samples, which tells you to test with a small budget and measure your own. In the builder example I use €10 per registrant as an illustrative figure.
+Fee plus a share of sales. A smaller fee up front plus a percentage of what the webinar sells. For Jake, €1,000 to set it up plus 20% of webinar sales. This one suits creators really well, because they like that you only do well when they do well. And if the webinar sells €12,000 in a month, your 20% is €2,400. Every month it runs.
 
-Partners. Borrowing someone else's audience. For the builder that might be a kitchen company or an architect who runs a joint webinar and emails their list. Cheap and warm, but you need a good relationship.
+I looked for a standard percentage for this kind of deal and couldn't find a reliable one. Revenue share guides I found give very wide ranges depending on who brings the audience and who does the work. So the 20% is my illustrative number. Agree a number you're both happy with and write it down.
 
-How to choose. If the client has a list, use it first. If they have a proven offer and budget, add ads. If they have neither, go to partners and build the list as you go. And whatever you start with, track the cost per registrant from day one.`,
+For reference, a 2026 goLance guide puts freelance funnel builders at roughly $20 to $225 an hour. Consulting guides give retainer examples around $4,000 to $7,500 a month (ClickUp, Clicksgeek). A share of sales can beat all of those once the webinar works.`,
 
-regpage: `The registration page has one job, and every element on it either helps someone sign up or gets in the way.
+div2: `Part two. The webinar machine. How people get from seeing a post to sitting in the room.`,
 
-The headline names the result they want, in their words. For the builder: Plan your extension without getting ripped off. That beats something like Our Monthly Building Webinar, which is about the business.
+funnel: `The whole system fits on one page. Six steps.
 
-Date, time and length right at the top. People want to know if they can make it before they read anything else.
+Posts and emails. The creator tells their audience about the webinar.
 
-Three short promises. What they'll know by the end. Each one a specific thing, like the three costs builders leave out of quotes.
+Sign up page. People put their name, email and phone number in.
 
-Who's hosting, with a real photo and one line on why they're worth listening to. Twenty years building extensions in the area, 300 plus completed jobs, that sort of thing. If those aren't true for your client, use what is true.
+Reminders. Emails and texts so they actually turn up.
 
-The form. Name, email, and a mobile number if you're going to use text reminders. Every extra field costs you sign ups, so only ask for what you'll actually use.
+The live webinar. The hour itself.
 
-One button with an action on it, like Save my seat.
+The offer. What they can buy at the end, with a clear price and a link.
 
-On mobile it all has to load fast and the button has to be visible without scrolling far. Check it on your own phone before any money goes on ads.`,
+Follow up and replay. Emails for the next week and the recording for people who missed it.
 
-regfail: `Published figures for webinar registration pages vary a lot. A GetResponse study, quoted across several sources, put webinar landing pages at an average of about 22.84%. ClickMeeting puts registration at 35 to 59% depending on how warm the traffic is, and they suggest aiming for 40% plus on warm traffic. So for a typical page I'd plan on roughly 20 to 40%, lower on cold ads and higher on an email list.
+Between those steps are three numbers. How many people who see the page sign up. How many people who sign up turn up. How many people who turn up buy. We call them sign up rate, show rate and buy rate.
 
-When a page sits below that, it's nearly always one of these.
+When a webinar doesn't make money, one of those three is broken. Your whole job is finding which one and fixing it. Remember that, because we'll come back to it.`,
 
-The headline is about the topic or the business instead of the result. Fix it by writing the result the buyer wants in the words they'd use.
+traffic: `Where do the sign ups come from. For a creator, the audience is already there, which is why creators are such a good fit for this.
 
-The date and time are hidden. People bounce because they can't see if they're free.
+Posts and reels. Two or three posts in the week before, each one teaching a small tip and pointing at the webinar.
 
-Too many fields. Ask for what you'll use.
+Stories. Every day for a week, with a link sticker. Countdown stickers work well.
 
-Slow on mobile. Your traffic is mostly phones, so test the page on a phone over 4G.
+Email list. If they have one, it's the best source they've got. Send three emails in the week before.
 
-The ad and the page don't match. If the ad says how much does an extension cost and the page says build your dream home, people feel tricked and leave.
+Link in bio. Point it at the sign up page for the whole week.
 
-It looks like a sales page. If there's a price on it or it's covered in buy now buttons, people think they're being pitched before they've even signed up.
+Collabs. Another creator in a similar space shares it with their audience, and you can run a joint webinar.
 
-Fix the biggest one, run traffic again, and compare. One change at a time so you know what worked.`,
+Paid ads come later. Once a webinar is making money, ads let you pour more people in. One 2026 B2B guide estimates Meta cost per webinar sign up at $8 to $12, and WordStream puts the average Facebook cost per lead across industries at $27.66 in 2025. Very different numbers, so you'd test with a small budget first.
 
-reminders: `This is where I'd look first on nearly any webinar that's struggling. People sign up with good intentions and then life happens.
+For Jake's first webinar, posts, stories, email and the bio link get 500 sign ups, and it costs him nothing.`,
 
-Timing matters because a big chunk of people sign up late. GoTo's 2017 data found about 33% of registrations happened on the day itself, ON24's 2017 report said 22%, and Livestorm's more recent figures say around 15%. So between roughly 15 and 33% of your registrants might sign up on the day. That means your morning of and last hour reminders do a lot of the work.
+regpage: `The sign up page has one job, getting people to sign up. Everything on it either helps that or gets in the way.
 
-For live show rates, Goldcast's 2024 B2B report headlines 33%, Univid puts live attendance at 49% and Livestorm reported 47.7% across their 2025 sessions. ON24 reports 57 to 60%, but that includes people watching on demand. So for live attendance, plan on roughly 30 to 50%.
+The headline says what they'll get, in their words. For Jake: How to land your first paid editing client in 30 days. That beats Jake's Editing Webinar every time.
 
-The sequence I'd use. On sign up, an email and a text confirming the time with the link and a calendar button. If they signed up a few days early, a value email two or three days before, giving them something useful and a reason to turn up. Twenty four hours before, an email. Morning of, email and text. One hour before, email. Fifteen minutes before, a text. And when you go live, a text and an email saying we're live now, with the link.
+Date, time and length at the top, so people can see straight away if they're free.
 
-Text messages matter. Vendors like AEvent and text platforms claim big lifts from adding SMS, but those are their own figures so I won't quote them as fact. Test it yourself. Run one webinar with email only and the next with email plus text, and compare show rates.`,
+Three short promises of what they'll learn. Specific stuff, like the first message to send a client.
 
-messages: `These are the actual messages for the builder. Copy the structure and change the details for your client.
+A photo of the creator and one line of proof. For Jake, his follower count and the fact he edits full time.
 
-The sign up text is short and does two jobs: it confirms the booking and it asks them to save the number so the next text doesn't look like spam.
+A short form. Name, email and phone number for text reminders. Every extra box loses you sign ups.
 
-The morning of email has a subject line that gives them a reason to come, something specific they'll learn tonight. The body tells them when doors open, what to bring, and puts the link front and centre. Asking them to bring something, like their rough budget, makes them more likely to show because now they've got a job to do.
+One button that says what happens, like Save my seat.
 
-The fifteen minute text is the one that gets people off the sofa. Keep it friendly and casual, like you'd text a mate. The link has to be in it, and it has to work in one tap.
+And it has to work on a phone, because nearly all the traffic from social media is on a phone. Check it on your own phone before anything goes out.
 
-Two practical things. Send reminders in the registrant's own time zone if your platform allows it. And test every link on your own phone before the sequence goes live, because one broken link in the last hour can cost you half the room.`,
+How many should sign up. A GetResponse study, quoted across several sites, puts webinar sign up pages at about 22.84% on average. ClickMeeting says 35 to 59% depending on how warm the traffic is. A creator's own followers are warm, so you'd hope for the higher end.`,
 
-div2: `Part two. The webinar itself. This is the hour that makes the money, so we'll go through it section by section.`,
+reminders: `This is the step that kills loads of webinars. People sign up, then life happens and they forget.
 
-runofshow: `A sixty minute selling webinar has seven sections. I've given you times but treat them as a guide.
+How many turn up. Goldcast's 2024 report headlines 33%. Univid puts live attendance at 49%. Livestorm reported 47.7% across their 2025 sessions. So plan on roughly 30 to 50% of sign ups turning up live.
 
-Hook, first five minutes. Tell them what they'll walk away with and why they should stay to the end.
+A big chunk of people sign up on the day itself. GoTo's 2017 data said about 33%, ON24 in 2017 said 22%, and Livestorm more recently about 15%. So the reminders on the day matter a lot.
 
-Credibility story, about five minutes. Who you are and why you're worth listening to, told as a short story.
+The reminders I use. When they sign up, an email and a text with the time and the link. A few days before, an email with something useful. The day before, an email. The morning of, an email and a text. One hour before, an email. Fifteen minutes before, a text. And when you go live, a text and an email saying we're live now.
 
-Teaching, around twenty five minutes. Three main points. This is the value, and it's also where you set up the sale.
+Texts are powerful because people read them. Companies selling text tools claim big jumps in attendance, but those are their own numbers, so test it yourself. Run one webinar with email only and the next with email and texts, and compare.`,
 
-Bridge, about five minutes. The move from teaching to offer, done so it feels natural.
+messages: `These are the actual messages for Jake. Copy the idea and change the details for your creator.
 
-Offer, ten minutes. What they get, what it costs, how to buy.
+The sign up text confirms it and asks them to save the number, so the next text doesn't look like spam.
 
-Close, five minutes. Deadline, bonus for acting on the night, link on screen.
+The morning email has a subject line that gives them a reason to come. Something specific they'll learn tonight. Then the time and the link.
 
-Questions, five minutes or more. Keep the offer link up the whole time.
+The fifteen minute text is short and friendly, like a mate texting you. The link has to work in one tap.
 
-On length: ON24 reports that the typical webinar on their platform runs around an hour, with average engagement of roughly 49 to 55 minutes. So an hour is a sensible target. If you can't fill sixty minutes with good material, run forty five. Padding loses people right before the offer, which is the worst time to lose them.`,
+Write them how the creator talks. If Jake's a casual lad on Instagram, the texts should sound like Jake, not like a bank.
 
-hook: `The first five minutes decide whether people stay. I run them minute by minute.
+And test every link on your own phone. One broken link in the last hour can lose you half the room.`,
 
-Minute one: say the result and who it's for. No long intro, no waiting for people to arrive. Start on time and start strong.
+div3: `Part three. The hour that sells. This is where the money's made, so we'll go through it bit by bit.`,
 
-Minute two: give them a reason to stay to the end. A checklist, a template, a bonus only for people who are live. For the builder it's a one page quote checker they can use on any builder's quote.
+hour: `A selling webinar is about an hour, in seven parts.
 
-Minute three: a quick win. Something useful straight away, so they know this is worth their time. For the builder, the rough cost per square metre for an extension in their area and what changes it.
+The hook, five minutes. Tell them what they'll walk away with.
 
-Minute four: get them typing. Ask them to put in the chat what room they're thinking of extending, or where they're watching from. People who type early stay longer and engage more.
+The story, five minutes. Who the creator is and why they're worth listening to.
 
-Minute five: the plan for the hour. Three things we'll cover, and a heads up that you'll tell them how to work with you at the end. Saying that early means the offer doesn't come as a shock.
+The teaching, about twenty five minutes. Three main points. This is the value.
 
-The hook on the slide is the exact opening line I'd give the builder. Every phrase is a specific thing they'll get, and the last bit, before you hand over a deposit, hits the fear every homeowner has.`,
+The bridge, five minutes. Moving from teaching to the offer, smoothly.
 
-story: `The credibility story is short, about five minutes, and it has four parts.
+The offer, ten minutes. What they get, the price, how to buy.
 
-Where they were. The situation your buyer is in right now, which ideally is where you or your client once were.
+The close, five minutes. The deadline and a bonus for joining tonight.
 
-What went wrong. The mistake or the problem, told honestly.
+Questions, five minutes or more, with the buy link on screen the whole time.
 
-What changed. The thing you figured out. This should line up with what you're about to teach.
+ON24 says the typical webinar on their platform runs about an hour, with average engagement around 49 to 55 minutes. So an hour is a good target. If you can't fill an hour with good stuff, do forty five minutes. Padding loses people right before the offer.`,
 
-Proof now. Results, numbers, photos, testimonials.
+hook: `The first five minutes decide if people stay.
 
-For the builder it might go like this. He started out working for a firm that underquoted every job and then hit customers with extras halfway through. He watched families run out of money with half a kitchen. When he set up on his own he started pricing every job line by line with fixed quotes, and he's now done over 300 extensions in the area. Then you show photos of finished jobs and a couple of short reviews. Again, use what's actually true for your client.
+Minute one. Say what they'll get and who it's for. Start on time. Don't wait around for people to join.
 
-The rule: proof beats bragging. Saying I'm the best builder in the county means nothing. Showing a before and after with the homeowner's review means everything. And keep it about the buyer. The story is there so they think, he gets my situation.`,
+Minute two. Give them a reason to stay to the end. For Jake, a free pack of editing presets for everyone who's still there at the end.
 
-teaching: `This is where people get it wrong in both directions. Some teach so little that the webinar feels like a long advert. Others teach everything and then wonder why nobody needs to buy.
+Minute three. A quick win. One tip they can use straight away, so they know this is worth their time.
 
-The split I use. Teach the what and the why, and sell the how and the doing. On the webinar you explain what needs to happen and why it matters. The offer is how they get it done, quickly and properly, with help.
+Minute four. Get them typing. Ask them to put in the chat where they're watching from, or how long they've been editing. People who type early stay longer.
 
-Three main points, and each one should clear a reason they think it won't work for them. For the builder:
+Minute five. Tell them the plan for the hour, and say that at the end you'll show them how they can work with Jake. Saying it early means the offer doesn't feel like an ambush.
 
-Point one: what an extension costs per square metre locally, and what pushes that number up or down. This clears I don't know if I can afford it.
+The opening line on the slide is word for word what I'd give Jake. Three specific things they'll get, all of them things a beginner editor badly wants.`,
 
-Point two: the three costs that get left out of quotes. Things like structural engineer fees, building control and the finish level. This clears builders always rip you off.
+story: `The creator's story is about five minutes and has four parts.
 
-Point three: how the process runs from drawings to keys, with real timings. This clears it'll take forever and wreck my life.
+Where they were. For Jake, editing videos for his mates for free and not making a penny.
 
-By the end they understand what's involved and they believe it's doable. What they don't have is the drawings, the fixed quote, or the confidence to do it alone. That gap is exactly what the offer fills.`,
+What went wrong. He spent months learning editing software and still had no clients.
 
-bridge: `The bridge is the moment you move from teaching to selling. Get this right and the offer feels like the next obvious step. Get it wrong and you can feel the room go cold.
+What changed. He stopped learning more software and learned how to find clients and talk to them. He got three paying clients in a month.
 
-Three moves.
+Where they are now, with proof. He edits full time, and he's got screenshots of students landing clients.
 
-Recap what they now know. Quickly run through the three points so they feel how much they've learned.
+Use only what's true for your creator. Every creator has a story like this, you just have to ask them the right questions on your kickoff call.
 
-Show the gap. Knowing what to do and getting it done are different things. Name what's still missing for them.
+The point of the story is that the people watching see themselves in it. They're where Jake was. The story tells them it's possible, and it sets up what he's about to teach.`,
 
-Ask permission. Something like, if you'd like help with that, I'll show you how we can do it with you. Is that alright, pop a yes in the chat. Then wait for the yeses before you move on. That small yes changes how people listen to the offer.
+teaching: `This is the bit people get wrong. Teach too little and it feels like an advert. Teach everything and nobody needs to buy.
 
-For the builder the line on the slide is close to word for word. You now know what it should cost and what to watch for. The quickest way to get it right is a fixed price plan for your house. That leads straight into the design visit offer.`,
+Simple rule. On the webinar, teach the what and the why. In the offer, sell the how, done step by step with help.
 
-offer: `When you present the offer, every part of it has to be easy to understand and easy to value.
+Three main points, and each one should knock down a reason they think it won't work for them.
 
-The builder's offer is a paid design and survey visit for €295, taken off the price of the build if they go ahead. On its own that sounds like a cost. Stacked properly it's a no brainer.
+For Jake. Point one, the three edits clients actually pay for. That knocks down, I'm not good enough yet, because they see it's only three things.
 
-Each item gets its own line, a short description of what it gets them, and a value. A measured survey of the house. 3D concept drawings so they can see it before they commit. A fixed price written quote with every line itemised. A planning check so they know what's allowed. Add those up and the total value is €1,550. Then the price, €295, said once, clearly, and then the fact it comes off the build.
+Point two, where clients are hiding in plain sight, like local businesses posting rubbish videos. That knocks down, there's no clients for beginners.
 
-All of those values are illustrative. When you do this for a real client, use honest values, what that item would cost on its own from them or from a comparable supplier. Inflated values kill trust fast.
+Point three, the first message to send them. That knocks down, I hate selling.
 
-Then a bonus for booking live, something real. For the builder it's a priority slot in their start date calendar, because they genuinely book up months ahead.
+By the end they understand what to do and believe they can do it. What they don't have is the full training, the templates, and someone in their corner. That's exactly what the offer gives them.`,
 
-And put the link on screen. Leave it there. Say it out loud. Put it in the chat every few minutes.`,
+bridge: `The bridge is how you go from teaching to selling without the room going cold.
 
-close: `The close is the last five minutes before questions. A few rules.
+Three moves. Recap the three points quickly so they feel how much they've learned.
 
-A real deadline, and you keep it. If you say the offer ends Sunday at midnight, it ends Sunday at midnight. Fake deadlines get found out and they kill the next webinar.
+Show the gap. Knowing what to do and doing it are different things. Loads of us know how to get fit, and we still don't do it on our own.
 
-A bonus for acting tonight. For the builder, the priority start slot. Make it something that genuinely only makes sense to give to people who decide fast.
+Ask permission. Something like, if you want help doing this, I'll show you how we can work together, pop a yes in the chat. Wait for the yeses before moving on.
 
-Read out people booking, with their permission. Sarah from Ballincollig just booked her visit, thanks Sarah. It shows other people are going for it. Only do it if it's real.
+The line on the slide is what Jake would say. It's simple, honest, and it leads straight into the offer.`,
 
-Keep the link on screen through the questions, and repeat the offer at least two or three times as you answer things. People join late, drift off, or only decide halfway through the Q and A.
+offer: `When you show the offer, make every part easy to understand and easy to put a value on.
 
-And answer the questions that are really objections. When someone asks how long does the build take, they're really asking whether this is going to wreck their life for a year. Answer the worry underneath.`,
+Jake's offer is Edit Pro, his 8 week programme, for €1,000.
 
-objections: `Four objections come up on almost every webinar in some form. Have your answer ready before you go live.
+Each part gets its own line, what it does for them, and a value. The 8 week video course. Weekly live calls with Jake. His editing templates and presets. Scripts for messaging clients. The private community. Add them up and it's €2,000 of value. Then the price, €1,000, said once, clearly.
 
-I can't afford it. For the builder: the €295 comes off the build, so if you go ahead it costs you nothing extra. And you'll leave the visit with a fixed price, so you'll know exactly where you stand before you spend a penny more.
+All those values are illustrative. For a real creator, use honest values, what each part would cost on its own. Made up values wreck trust.
 
-I need to talk to my partner. Totally fair. Book the visit for a time you're both home, and if after the visit you decide not to go ahead, you keep the drawings and the quote.
+Then a bonus for joining tonight. For Jake, a one to one review of their portfolio, because he can only do so many of them.
 
-Will this work for my house. Tell them to type their situation in the chat and answer it live. Seeing you handle real situations is one of the best sales tools you have.
+And keep the link on screen. Say it out loud. Put it in the chat every few minutes.`,
 
-I'll do it later. Be straight about what waiting costs. For the builder: start dates are booked months ahead, and the priority slot is only for people booking this week.
+close: `The close is the last few minutes before questions.
 
-The pattern for all of them is the same. Agree it's a fair concern, give a straight answer, and point back to the next step. Keep the pressure off. You're helping them decide.`,
+A real deadline, and you stick to it. If the offer ends Sunday at midnight, it ends Sunday at midnight. Fake deadlines get found out.
 
-followup: `Plenty of sales come in the week after the webinar, so the follow up sequence is part of the job.
+A bonus for tonight, something real, like Jake's portfolio review.
 
-Day zero, straight after. Replay link plus a short recap of the offer and the deadline.
+Read out people joining, with their permission. Tom from Leeds just joined, welcome Tom. It shows others are going for it. Only if it's real.
 
-Day one. Answer the top questions from the Q and A, because if one person asked it, twenty were thinking it.
+Keep the link on screen through all the questions, and repeat the offer two or three times. People join late and decide late.
 
-Day two. A case study. For the builder, one real job: what the family wanted, what it cost, how long it took, before and after photos.
+And listen for the worry behind a question. When someone asks how many hours a week it takes, they're worried they won't have the time. Answer that worry.`,
 
-Day three. The cost of waiting. Start dates filling up, prices rising, another summer without the space.
+objections: `Four worries come up on nearly every webinar. Have the answers ready.
 
-Day five. The replay comes down tomorrow and the offer closes.
+I can't afford it. For Jake: one editing client at €500 a month pays for it in two months. That's illustrative, but the idea is to compare the price to what the skill earns them.
 
-Day six. Last day. Email and a text.
+I don't have time. The lessons are short, twenty minutes a day, and the calls are recorded.
 
-Day seven. Doors closed, and here's the date of the next one.
+Will this work for me if I'm a complete beginner. Ask them to type their situation in the chat and answer it live. Watching the creator answer real people is one of the best sales tools there is.
 
-On the replay: Contrast reports around 42% of webinar views come from on demand replays, and ON24 reports 43% for 2025. So a big share of your viewers will only ever see the recording. Give the replay the same deadline as the live offer, take it down when you say you will, and add timestamps so people can skip to the offer if they want.`,
+I'll do it later. Be straight. Later usually means never, and the bonus ends Sunday.
 
-div3: `Part three. The numbers. This is what separates a specialist from someone who just runs webinars. When you can read the numbers, you can fix anything.`,
+Same pattern for every one. Agree it's a fair worry, give a straight answer, point to the next step. No pushy stuff. You're helping them decide.`,
 
-metrics: `Five numbers. Track them for every single webinar in one simple sheet.
+followup: `Plenty of sales come in the week after the webinar, so the follow up is part of the job.
 
-Cost per registrant. Ad spend divided by registrants. Benchmarks are all over the place. GrowthSpree estimates $8 to $12 on Meta for B2B, while WordStream puts the average Facebook cost per lead across industries at $27.66. Measure your own.
+Day zero, straight after. The replay and a quick recap of the offer and deadline.
 
-Registration rate. Registrants divided by page visitors. Plan on roughly 20 to 40% for a typical page, with more on warm traffic. Sources: GetResponse average of about 22.84%, ClickMeeting 35 to 59% depending on traffic.
+Day one. Answers to the top questions from the night.
 
-Show rate. Live attendees divided by registrants. Roughly 30 to 50% live, from Goldcast at 33%, Univid at 49%, and Livestorm at 47.7%.
+Day two. A story about one student who got a result.
 
-Buy rate. Buyers divided by live attendees. Planning range of roughly 5 to 15% for a sales webinar. ClickMeeting quotes 5 to 20% for teaching led webinars with a clear return. Focus Digital's industry table shows rates as low as 1 to 2% for B2B overall, so cheap or cold offers can sit far lower.
+Day three. What waiting costs them.
 
-Revenue per attendee. Total revenue divided by live attendees. This is the number that tells you what a seat is worth, and it's how you decide how much you can afford to spend to get someone there.
+Day five. The replay comes down tomorrow.
 
-The benchmarks are there to tell you where to look. Your client's own numbers, webinar after webinar, are what you actually manage.`,
+Day six. Last day, by email and text.
 
-diagnose: `When a webinar underperforms, don't guess. Go through the stages in order and find the number that's furthest below where it should be.
+Day seven. Doors closed, and here's when the next one is.
 
-If cost per registrant is high, look at the ads and targeting. First fix: test new ad angles. Three different hooks, same page, and let the numbers pick.
+On the replay. Contrast reports around 42% of webinar views come from replays, and ON24 reports 43% for 2025. So loads of people will only ever watch the recording. Give it the same deadline as the live offer and take it down when you say you will.`,
 
-If registration rate is low, look at the page and the promise. First fix: rewrite the headline on the result, cut fields, check mobile speed.
+div4: `Part four. Getting your clients great results. This is what makes creators keep paying you and tell their mates about you.`,
 
-If show rate is low, look at reminders and timing. First fix: add text messages for the morning of and fifteen minutes before, and check the time slot suits your buyer.
+numbers: `To get results you need to track five numbers on every webinar. One simple sheet.
 
-If buy rate is low, look at the offer and the pitch. First fix: the bridge, the stack, and a real deadline. Also check people are staying until the offer. If half the room leaves at minute 35, the problem is the teaching dragging, and it's showing up as a low buy rate.
+Cost per sign up. Only matters once you run ads. Ad spend divided by sign ups. GrowthSpree estimates $8 to $12 on Meta for B2B, WordStream puts the average Facebook lead at $27.66. Test your own.
 
-One fix at a time, then run it again. If you change four things and it works, you've no idea which one did it, and you can't do it again for the next client.`,
+Sign up rate. Sign ups divided by people who visited the page. Roughly 20 to 40% for a typical page, from GetResponse and ClickMeeting figures, and higher for warm followers.
 
-exbefore: `Let's put it together with the builder. Every number here is illustrative.
+Show rate. People live divided by sign ups. Roughly 30 to 50% live, from Goldcast, Univid and Livestorm.
 
-They spend €2,500 on ads in a month. At €10 per registrant that gets them 250 registrants.
+Buy rate. Buyers divided by people live. A planning range of roughly 5 to 15% for a selling webinar. ClickMeeting quotes 5 to 20% for teaching webinars, while Focus Digital's figures for some B2B industries sit as low as 1 to 2%, so cheaper or colder offers can be far lower.
 
-Only 50 turn up live. That's a 20% show rate.
+Money per person live. Total sales divided by people live. This tells you what one seat is worth, and later it tells you how much you can spend on ads.
 
-Of those 50, 5 book the €295 design visit. That's a 10% buy rate.
+The ranges tell you where to look. Your creator's own numbers, webinar after webinar, are what you manage.`,
 
-Two of those 5 visits turn into jobs, so 40%.
+broken: `When a webinar doesn't sell, don't guess. Go through the steps and find the number that's furthest off.
 
-Two jobs at €30,000 is €60,000 in revenue, and at 20% gross profit that's €12,000.
+Not enough sign ups. Look at the promotion and the page. Post more, use stories every day, rewrite the headline.
 
-Now diagnose it. Cost per registrant at €10 is fine. Buy rate at 10% sits inside the 5 to 15% planning range. But 20% show rate is well below the roughly 30 to 50% we'd expect. That's the broken stage, and that's the one you fix first. And when I looked at the setup in this example, reminders were email only and the webinar ran at 1pm on a weekday when homeowners are at work.`,
+Low show rate. Look at the reminders and the time. Add texts, and run it when the audience is free, usually evenings.
 
-exafter: `Same builder, same ads, same €2,500, same 250 registrants. The only stage we change is the show up stage. We add text reminders on sign up, the morning of and fifteen minutes before, and we move the webinar from 1pm to 7pm.
+Low buy rate. Look at the offer and the pitch. Fix the bridge, the value stack, and the deadline. Also check people are still there when the offer comes. If half have left by minute 35, the teaching is dragging.
 
-In this example the show rate goes from 20% to 40%. That's still inside the range we expect, so it's a realistic target.
+Sales in the week after are low. Look at the follow up. Is the sequence actually going out, and is the replay up.
 
-Now 100 people turn up instead of 50. Buy rate stays at 10%, so 10 design visits instead of 5. Visit to job stays at 40%, so 4 jobs instead of 2.
+One fix at a time, then run it again. Change four things at once and you'll never know which one worked, so you can't repeat it for the next creator.`,
 
-Revenue goes from €60,000 to €120,000. Gross profit goes from €12,000 to €24,000.
+before: `Let's look at Jake's first webinar. All illustrative.
 
-Same spend. One stage fixed. Double the profit. That's the whole value of a specialist in one slide, and it's the slide you'll end up showing clients on sales calls, with their own numbers in it.
+500 people sign up from his posts, stories, emails and bio link.
 
-Remember these figures because the pricing slides later use exactly the same numbers. The fixed funnel books 4 jobs a month and makes €24,000 gross profit.`,
+100 turn up live. That's a 20% show rate.
 
-div4: `Part four. Becoming one. The tools, the skills, the niche, finding clients, pricing and delivery.`,
+6 buy Edit Pro at €1,000. That's a 6% buy rate.
 
-tools: `You need one tool for each job, and you can learn all of them in a few weeks. These are common options and I'm not endorsing any of them. Pick one in each category and get good at it.
+So €6,000 in sales from one evening.
 
-The webinar room. Where the live session runs. Zoom Webinars, Livestorm, WebinarJam, and on the bigger corporate end, ON24.
+Not bad. But look at the numbers. The buy rate at 6% is inside the 5 to 15% range. The show rate at 20% is well below the 30 to 50% we'd expect. That's the broken step.
 
-Pages and forms. Your registration and thank you pages. GoHighLevel, ClickFunnels, Leadpages or a WordPress site with a form.
+And when you look at how it was set up, there was one reminder email and nothing else, and it ran at 2pm on a Tuesday when his followers were at work or in college.`,
 
-Email and text. The reminder and follow up sequences. ActiveCampaign or GoHighLevel, with a text provider plugged in.
+after: `Same Jake, same 500 sign ups. We only fix the turning up step. We add the full reminder sequence with texts, and we move it to 7pm on a Thursday.
 
-Booking and payments. Calendly for booked calls or visits, Stripe for taking payment.
+The show rate goes from 20% to 40%. Still inside the normal range, nothing crazy.
 
-Tracking. The Meta pixel, Google Analytics, links tagged so you know which source each registrant came from, and one spreadsheet with the five numbers.
+Now 200 people turn up instead of 100. The buy rate stays at 6%, so 12 sales instead of 6.
 
-Slides and recording. Canva or Keynote for slides, and the platform's own recording for the replay.
+Sales go from €6,000 to €12,000.
 
-Some all in one tools like GoHighLevel cover pages, email, text and booking in one place, which is handy when you're starting out. Whatever you choose, build one complete demo funnel for yourself first so you know every setting before a client is paying you.`,
+Same audience. Same offer. One step fixed. Double the money.
 
-skills: `The skills, in the order I'd learn them. The order matters because each one builds on the last.
-
-One, funnel maths. If you can't work out cost per registrant, show rate and revenue per attendee, you can't sell or improve anything. A weekend with a spreadsheet.
-
-Two, copywriting. Headlines, registration pages, reminder messages, follow up emails. This is where the money is made or lost. Write every day.
-
-Three, webinar scripting. The structure we've just been through. Write scripts for imaginary businesses until it's second nature.
-
-Four, tech and automation. Pages, forms, reminders, links. Build your own demo funnel end to end.
-
-Five, traffic basics. Enough Meta ads to run a small test and read the results. You don't need to be an ads expert, but you need to know when the ads are the problem.
-
-Six, reading numbers and fixing. The diagnosis process. Practise on your own demo funnel and on any public webinar you can register for. Sign up for loads of them and take notes on what they do.
-
-Seven, selling your service. Outreach, sales calls, proposals. Last, because you'll sell far better once you've got the other six.`,
-
-niche: `Pick a niche, because a specialist for building firms gets hired faster than a general webinar person.
-
-Good niches have these things. A high value sale, ideally €3,000 or more, so one extra customer pays your fee. They already sell by talking to people, through visits, calls or consultations, so a webinar fits how they work. They have leads or budget to get them. Someone in the business can present, or you can train them to. And you understand the customer, which makes everything easier to write.
-
-Examples that fit. Extension and renovation builders, solar and heat pump installers, dental implant clinics, financial advisers and mortgage brokers, B2B software companies, accountants and private training providers.
-
-Your first client. Go for someone you can reach directly. A business you've bought from, someone in your family's network, a firm a friend works at. A warm introduction gets you a meeting in days instead of weeks. And you can do the first one at a lower price in exchange for a case study and a testimonial, as long as you're clear about that up front.`,
-
-outreach: `Two messages. One cold, one warm.
-
-The cold message is short and specific. It shows you've looked at their business, names one problem you can see, puts a number on it, and asks for a short chat. For the builder, it's the missed calls. You've rung them twice and got voicemail, or their site has a phone number and nothing else. Keep it respectful and point at the money they're leaving on the table.
-
-The warm message goes to people you know. It tells them what you do now in one line and asks who they know. People are happy to help if it's easy, so make it easy.
-
-Volume matters. If you send 20 well researched messages a day, that's 100 a week. Track replies and calls booked in the same sheet you use for webinar numbers. If you're getting no replies after 100, rewrite the message. If you're getting replies but no calls, fix your follow up.
-
-Personalise the first line every time. One line showing you looked at their actual business does more than any template.`,
-
-offercall: `Your first offer should be simple enough to explain in one sentence. I'll build and run one webinar for you, start to finish, for a fixed fee, and if it doesn't book a minimum number of visits I'll run the next one for free. The guarantee takes the risk off them and shows you believe in it. Only offer one you can afford to keep.
-
-The €6,000 fee and the 5 visit guarantee are illustrative for the builder. Notice 5 visits is what the broken funnel in the worked example already did, so it's a guarantee you can realistically hit.
-
-On the call, show five things.
-
-Their numbers on the funnel diagram. Even rough guesses. How many enquiries, how many quotes, how many jobs.
-
-The cost of the problem, worked out with them. We'll do that on the next slide.
-
-A teardown of what they've got now. Their website, their enquiry process, any webinar or event they've run. Two or three things you'd fix.
-
-A simple 30 day plan, so they can see how it'll run.
-
-Proof. Your demo funnel, a past result, or the worked example with their numbers. Then ask for the business and stop talking.`,
-
-pricing1: `Price against the problem. Hourly rates put a ceiling on what you can earn. Work it out with the client, live on the call. All illustrative.
-
-Ask how many calls they miss in a month. The builder says about 20, because he's on site and can't answer.
-
-Ask how many enquiries normally turn into jobs. He says about 1 in 10.
-
-So 20 missed calls is roughly 2 jobs a month that went to someone else.
-
-Two jobs at €30,000 is €60,000 in revenue. At 20% gross profit that's €12,000 a month in lost profit.
-
-Over a year that's €144,000.
-
-Now the conversation is completely different. You're offering to fix a €144,000 a year problem, and €6,000 looks small next to that. Do the maths with them, using their numbers, and write it down where they can see it. When the client does the sum themselves, they believe it.`,
-
-pricing2: `Now price it. The value of the fix, from the worked example, is a funnel that books 4 jobs a month and €24,000 gross profit, using the same numbers we've used all the way through.
-
-Option one, project fee: €6,000. That's paid back by the profit on a single job.
-
-Option two, retainer: €2,000 a month, three month minimum, to run the webinar every month and keep improving it.
-
-Option three, fee plus share: €3,000 up front plus 10% of the gross profit on webinar booked jobs. At 4 jobs a month, €24,000 profit, that's €2,400 a month to you.
-
-Against a problem costing €144,000 a year, every one of these is easy to say yes to. That's the point of pricing against the problem.
-
-How I'd present it. Lay out all three on one page. The project fee is the easy start, the retainer is where the long term money is, and the share option is for clients you trust with clean tracking. Let them choose. People like having options, and the middle one often wins.`,
-
-delivery: `A client project runs over four weeks, from kickoff to the live webinar and follow up.
-
-Week one, kickoff and research. A kickoff call to agree the offer, the date and the numbers you'll track. Talk to three to five of their past customers to hear in their words why they bought and what worried them. Those words go straight into the page and the script.
-
-Week two, build. Script and slides, registration page, thank you page, reminder sequence, follow up sequence, tracking. The client approves the script and offer.
-
-Week three, promote. Registration opens seven to ten days before the date. Email the list, turn the ads on, line up any partner emails.
-
-Week four, launch and follow up. Full dry run two days before on the real platform, with the presenter. Go live. Run the seven day follow up. Then send a one page report with the five numbers and your recommendations for the next one.
-
-The report is what turns a project into a retainer. Show them what happened, what you'd fix, and what that should be worth next month.`,
-
-checklist: `Run through this before every live webinar. Print it.
-
-Links tested on mobile, all of them, from the registration page through to the payment page.
-
-Reminder sequence switched on and tested with your own number and email.
-
-Offer link and payment tested with a real purchase, then refunded.
-
-Slides final, and the offer slide checked for price and deadline.
-
-Presenter has done a full dry run on the platform.
-
-Audio and camera checked, internet wired if possible, phone on silent.
-
-Chat moderator briefed with the link, the top questions and the objection answers.
-
-Recording switched on.
-
-Backup plan agreed if the platform fails, like a backup link texted to everyone.
-
-Follow up sequence loaded and scheduled.
-
-Replay page ready with the same deadline.
-
-Tracking sheet ready to fill in the next day.
-
-It sounds basic. I've seen a webinar with 300 people lose the lot because the payment link went to a 404 page. Ten minutes on this list saves you.`,
+That's what a specialist is worth, and it's the slide you'll show creators on sales calls, with their own numbers in it. Keep these numbers in your head, because the pricing slides use them.`,
 
 mistakes1: `Ten mistakes that kill webinars, and the fix for each. First five.
 
-One. The title is about the business, like Monthly Building Q and A. Fix it by naming the result the buyer wants, in their words.
+One. The title is about the creator, like Jake's Live Workshop. Fix it by naming the result the viewer wants.
 
-Two. Registration opens the day before. Not enough time to fill the room. Open it seven to ten days out and push hardest in the last 48 hours, since a big share of people sign up late anyway.
+Two. Promoting it with one story the day before. Promote for a full week, and push hardest in the last two days.
 
-Three. Email only reminders. Emails get buried. Add texts for the morning of and fifteen minutes before.
+Three. Email only reminders. Add texts for the morning of and fifteen minutes before.
 
-Four. The time suits the business instead of the buyer. The builder ran at 1pm when homeowners were at work. Pick the time your buyer is actually free, then test one other slot.
+Four. A time that suits the creator. Pick when the audience is free, usually evenings, then test one other slot.
 
-Five. Teaching everything. If you give away the full how, there's nothing left to buy. Three points, the what and the why.`,
+Five. Teaching everything. Three points, the what and the why.`,
 
 mistakes2: `The other five.
 
-Six. The pitch comes out of nowhere. The presenter goes from teaching straight into prices. Use the bridge: recap, show the gap, ask permission.
+Six. The pitch comes out of nowhere. Use the bridge: recap, show the gap, ask permission.
 
-Seven. The offer is vague. Something like we'll help you plan your extension. Fix it by stacking each item with what it gets them and an honest value.
+Seven. A vague offer, like join my programme. Stack each part with what it does and an honest value.
 
-Eight. Fake scarcity. Only three spots left, when everyone knows there are more. Use a real deadline and stick to it.
+Eight. Fake scarcity, like only three spots left when there's loads. Use a real deadline and stick to it.
 
-Nine. No follow up. Half the sales can come in the week after, and plenty of people only watch the replay. Run the seven day sequence and send the replay.
+Nine. No follow up. Run the seven day sequence and send the replay.
 
-Ten. Not tracking numbers. If you don't know your show rate, you can't fix it. Put the five numbers in one sheet after every webinar.
+Ten. Not tracking the numbers. Fill in the five numbers after every webinar.
 
-Every one of these is common, and every one is cheap to fix. That's why a specialist is worth paying.`,
+Every one of these is common and every one is cheap to fix. That's exactly why creators will pay you.`,
 
-plan30: `Your 30 day plan to land the first client.
+checklist: `Go through this before every live webinar.
 
-Days 1 to 7. Learn the funnel maths and build your own demo webinar funnel. Registration page, reminders, a short webinar on any topic you know, and a follow up. It doesn't need to be perfect. It needs to work end to end, so you've done every step yourself. Sign up for five other webinars and take notes.
+Every link tested on a phone, from the sign up page to the payment page.
 
-Days 8 to 14. Pick your niche. Build a list of 100 businesses in it with names and contact details. Write three teardowns of real businesses' websites or webinars, with what you'd fix and the maths of what it's worth.
+Reminders switched on and tested with your own number and email.
 
-Days 15 to 21. Send 20 personalised messages a day, warm and cold. Follow up with everyone who doesn't reply after three days. Book calls.
+Payment tested with a real purchase, then refunded.
 
-Days 22 to 30. Run the calls. Show the funnel, do the problem maths with them, send a one page proposal with three options within 24 hours. Close one client and run the kickoff.
+Offer slide checked for the right price and deadline.
 
-One client is the goal for the month. One client gets you a case study, and a case study gets you the next five.`,
+A full practice run with the creator on the actual platform two days before.
+
+Sound, camera and internet checked. Wired internet if possible.
+
+Someone in the chat helping people, with the link and answers to common questions ready.
+
+Recording switched on.
+
+A backup link ready to text out if the platform fails.
+
+Follow up emails loaded and scheduled.
+
+Replay page ready with the same deadline.
+
+Tracking sheet ready for the next morning.
+
+Ten minutes on this list saves you from the nightmare of two hundred people and a broken payment link.`,
+
+div5: `Part five. Starting, getting clients, and scaling. The how to make money from all of this.`,
+
+tools: `You need one tool for each job. You can learn them all in a few weeks. These are common options, I'm not endorsing any of them.
+
+The webinar room, where the live session runs. Zoom Webinars, Livestorm or WebinarJam.
+
+Sign up pages. GoHighLevel, ClickFunnels, Leadpages or a simple WordPress site.
+
+Emails and texts. ActiveCampaign or GoHighLevel, with a text service plugged in.
+
+Payments. Stripe, or whatever the creator already sells through.
+
+Tracking. Links tagged so you know where each sign up came from, and one sheet with the five numbers.
+
+Slides. Canva or Keynote, and the platform's own recording for the replay.
+
+An all in one tool like GoHighLevel does pages, emails, texts and bookings in one place, which makes life easier when you're starting. Pick one of each, then practise on your own webinar before a creator pays you.`,
+
+skills: `The skills, in the order I'd learn them.
+
+One. Webinar numbers. Sign up rate, show rate, buy rate. A weekend with a spreadsheet.
+
+Two. Writing. Sign up pages, emails, texts. This is where the money is won or lost. Write every day.
+
+Three. Webinar scripts. The hour we went through tonight. Write practice scripts for creators you follow.
+
+Four. The tech. Pages, forms, reminders, payment links. Build your own setup from start to finish.
+
+Five. Getting sign ups. Posting, stories, emails, and later a small ad test.
+
+Six. Reading the numbers and fixing. Sign up for loads of creators' webinars and take notes on what they do well and badly.
+
+Seven. Selling your service. DMs, calls, proposals. Last, because you'll sell way better once you can do the other six.
+
+And the best practice of all, run your own webinar. Teach something you know to ten mates on Zoom. You'll learn more in that one hour than in a month of watching videos.`,
+
+finding: `Finding creators is easier than you think. They're all public.
+
+Search Instagram, TikTok and YouTube for the skill. Video editing tutorial, beginner photography tips, home workout plan.
+
+Look for these signs. They post tutorials, so they're already teaching. Their comments are full of people asking how to learn more. They've got a course link in their bio, or nothing at all. They're not running webinars yet. And their followers actually engage, it's not a dead account.
+
+Aim for creators with roughly 10,000 to 200,000 followers. Big enough to fill a webinar, small enough that they still read their DMs. That's my rule of thumb.
+
+Put 100 of them in a sheet. Name, platform, follower count, what they teach, what they sell, and one specific thing you noticed. That one thing is what makes your message work.`,
+
+dms: `Two messages. One to creators you don't know, one to people you do.
+
+The cold DM. It's short, it shows you've actually watched their stuff, it points at something real you noticed, and it makes the next step easy. It stays respectful and points at money they're leaving on the table.
+
+The warm message. Tell people you know what you do now, in one line, and ask who they know. People are happy to help if you make it easy.
+
+Numbers. Send 20 a day, that's 100 a week. Track replies and calls in the same sheet. No replies after 100, rewrite the message. Replies but no calls, fix how you follow up.
+
+Change the first line for every single creator. One line that proves you watched their content does more than any template.`,
+
+call: `Keep your first offer dead simple. I'll build and run one webinar for you, start to finish. You teach for an hour, I do everything else. €1,000 to set it up and 20% of what it sells. If it doesn't make at least €5,000, I'll run the next one for free.
+
+Those numbers are illustrative for Jake. Only offer a guarantee you can afford to keep. Jake's broken webinar still made €6,000, so a €5,000 guarantee is realistic.
+
+On the call, show them five things.
+
+Their numbers on the system diagram. Followers, email list, how many sales they make now.
+
+The gap, worked out with them. Next slide.
+
+What you'd change about how they sell now. Their bio link, their course page, anything you noticed.
+
+A simple plan for the next 30 days.
+
+Proof. Your own practice webinar, a past result, or Jake's example with their numbers. Then ask for the business and stop talking.`,
+
+gap: `Price against the gap. Hourly rates put a ceiling on what you earn. Work this out with the creator on the call. All illustrative.
+
+Ask how many sales they make now. Jake sells 2 a month through his bio link. That's €2,000 a month.
+
+Then show what one webinar a month could do, using the fixed numbers from before. 500 sign ups, 200 live, 12 sales, €12,000.
+
+The gap is €10,000 a month. Over a year, that's €120,000 they're leaving on the table.
+
+Now the conversation is about €120,000 a year, and your fee looks tiny next to it. Do the sum with them, using their own numbers, and write it down where they can see it. When they do the maths themselves, they believe it.`,
+
+charge: `Now put a price on it, using Jake's fixed webinar making €12,000 a month.
+
+Project fee, €3,000. Paid back by the first three sales on the night.
+
+Retainer, €1,500 a month to run it every month and keep improving it.
+
+Fee plus share, €1,000 to set up plus 20% of webinar sales. At €12,000 a month, that's €2,400 a month to you.
+
+Against a €120,000 a year gap, every option is an easy yes.
+
+With creators, I'd lead with the share option. They love it because you only win when they win, and it's where you make the best money long term. Just make sure every sale is tracked through one checkout so you both see the same numbers, and put the deal in writing.`,
+
+delivery: `Your first project runs over four weeks.
+
+Week one, kickoff and research. A call to agree the offer, the date and the numbers. Read through their comments and DMs to see what their audience struggles with, in their own words. Those words go straight into the page and the script. And get their story out of them.
+
+Week two, build. The script and slides with the creator, the sign up page, the reminders, the follow up emails, the payment link, the tracking.
+
+Week three, promote. Sign ups open seven to ten days before. Posts, stories every day, emails, bio link.
+
+Week four, launch. A full practice run two days before. Go live. Run the seven day follow up. Then send a one page report with the five numbers and what you'd change next time.
+
+That report is what turns one project into a monthly deal. Show them what happened, what you'd fix, and what it should be worth next month.`,
+
+scaleclient: `Once the first webinar works, you grow your creator's results in five ways.
+
+Run it every month. Each one gets better because you're fixing a number each time. And every month is new followers who haven't seen it.
+
+Make an always on version. Take the best recording and set it up so people can sign up and watch it any day of the week, with the same follow up. That's sales coming in between live webinars.
+
+Add paid ads once it makes money. When you know what one person live is worth, you know how much you can pay to get them there. Jake's fixed webinar makes €60 per person live, €12,000 divided by 200. If ads can get people there for less than that, you turn them up.
+
+Add a bigger offer. People who bought the €1,000 programme are the best people to offer a higher level of help to, like a small group mentorship.
+
+Collab webinars. Run a joint webinar with another creator and both audiences come.
+
+All of this is more sales for the creator, and if you're on a share, more money for you.`,
+
+scaleyou: `Growing your own business works the same way, step by step.
+
+Templates. Once you've done one webinar, save everything. The page, the emails, the texts, the script outline, the checklist. Client number two takes half the time.
+
+Stack share deals. Every creator on a share is monthly income. Illustrative maths: three creators each paying you €2,400 a month is €7,200 a month. Five is €12,000 a month.
+
+Get help. Once you've got three clients, pay someone to do the tech setup and keep yourself on the bits that make the money, the script, the offer and the numbers.
+
+Case studies. Every good result, write it up with the numbers and the creator's permission. That's what gets you the next client.
+
+Referrals. Creators know other creators. Ask every happy client who they'd introduce you to.
+
+Stay in one skill area at first, like editing and design creators, so you get known as the person for that.`,
+
+plan: `Your 30 day plan.
+
+Days 1 to 7. Learn the numbers and run your own practice webinar. Teach something you know to ten mates on Zoom, with a sign up page, reminders and a follow up. Rough is fine, as long as it's done. Sign up to five creators' webinars and take notes.
+
+Days 8 to 14. Pick your skill area. Build a list of 100 creators. Write three short teardowns of how they sell now and what you'd change.
+
+Days 15 to 21. Send 20 DMs a day. Follow up with everyone who doesn't reply after three days. Book calls.
+
+Days 22 to 30. Run the calls. Show the gap. Send a simple proposal within 24 hours. Close one creator and start the kickoff.
+
+One client is the goal. One client gets you a result, a result gets you a case study, and a case study gets you the next five.`,
 
 summary: `Let's wrap it up.
 
-A webinar growth specialist owns the whole system, from traffic to follow up, and gets paid on the result.
+A webinar is a free live online class that ends with an offer.
 
-The funnel has seven stages and three key rates between them: registration, show and buy. When a webinar isn't working, one of those is broken or traffic costs too much.
+A webinar growth specialist runs the whole thing for a creator, and gets paid on the results.
 
-The hour itself follows a structure: hook, credibility story, teaching, bridge, offer, close, questions.
+The system is six steps, and three numbers tell you if it's working: sign up rate, show rate and buy rate.
 
-Track five numbers on every webinar and fix one stage at a time. In the builder example, fixing only the show rate doubled profit from €12,000 to €24,000 a month on the same spend.
+The hour runs in seven parts: hook, story, teaching, bridge, offer, close, questions.
 
-Price against the problem. The builder's missed calls cost around €144,000 a year in profit, which makes a €6,000 fee an easy decision.
+To get great results, track the numbers and fix one step at a time. Jake doubled his sales from €6,000 to €12,000 just by getting more people to turn up.
 
-Then the 30 day plan. Build your demo, pick your niche, send the messages, close one client.
+Price against the gap. Jake's gap was €120,000 a year, so a fee plus 20% is an easy yes.
 
-Your homework: pick your niche this week and send your first ten messages by Friday. Post in the group when you've done it and I'll see you on the next one.`,
+Then scale. Run it monthly, make an always on version, add ads, and stack more creators.
+
+Your homework. Pick your skill area this week and send your first ten DMs by Friday. Post in the group when it's done, and I'll see you on the next one.`,
 };
